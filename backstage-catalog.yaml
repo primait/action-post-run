@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "action-post-run"
+  description: "Post-Run GitHub action"
+spec:
+  type: "service"
+  lifecycle: production
+  owner: "group:default/team-core"
+  system: prima.it
