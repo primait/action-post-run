@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: action-post-run
+  description: GitHub Action for executing commands after a workflow job ends
+  annotations:
+    github.com/project-slug: primait/action-post-run
+spec:
+  type: library
+  lifecycle: production
+  owner: group:default/team-developer-experience
+  system: prima.it
